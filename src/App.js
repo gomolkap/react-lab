@@ -12,7 +12,7 @@ function App() {
     let validationMessage = '';
     if (email.length<10){
         validationMessage=<div>Co za krótki email XD</div>
-    } else if (email.length<15){
+    } else if (email.length<20){
         validationMessage=<div>Ale masz spoko email</div>
     } else {
         validationMessage=<div>Ale bydle, takim to można zabić</div>
